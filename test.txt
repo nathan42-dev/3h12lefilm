@@ -1,0 +1,11 @@
+let videosLoaded = 0;
+    videos.forEach((video) => {
+        video.addEventListener("loadeddata", () => {
+            videosLoaded++;
+            if (videosLoaded === videos.length) {
+                // Toutes les vidéos sont prêtes
+                prechargement.style.display = "none"; // Cache le préchargement
+                mainContent.style.display = "block"; // Affiche le contenu principal
+            }
+        });
+    });

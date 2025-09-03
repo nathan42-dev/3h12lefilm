@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3h12 - Le projet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="icon" href="/img/icone.png" type="image/png">
+    <script src="script-stream.js" defer></script>
+</head>
+
+
+
+<body>
+    <!--<div id="prechargement">
+        <div class="spinner">   </div>
+    </div>-->
+    <div class="main-content">
+     
+
+    <header>
+        <h1>3h12 - LE PROJET</h1>
+        <nav>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+            <ul class="menu" id="menu">
+                <li><a class="navl" href="#propos">À propos</a></li>
+                <li><a class="navl" href="#projects">Le projet</a></li>
+                <li><a class="navl" href="contact.html">Soutenir le projet</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <div class="hero">
+        <div class="intro">
+            <h2 class="nom">3h12, et si vos erreurs vous rattrapaient ?</h2>
+            <p>Un court-métrage d'horreur psycho écrit et réalisé maison</p>
+            
+        </div>
+    </div>
+    
+    <section id="propos">
+        <h2>A propos du projet</h2>
+        <div class="presentation-fond">
+            <p class="presentation">
+                Je m'appelle Nathan Lamoste j'ai 19 ans et je suis étudiant.
+                Je suis actuellement en première année de BTS Audiovisuel avec option Montage et post production à l'école Studio M à Lyon.
+                J'ai commencé dans l'audiovisuel de manière autodidacte
+                 il y a environ 5 ans avec quelques projets utilisant mes propres moyens. 
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Mes projets</h2>
+        <div class="projects">
+<!--
+            <div class="project">
+                <video id="video" 
+                width="600" 
+                controls
+                data-title="Burnout"
+                data-description="Court métrage"
+                data-src="/video/AOAVFinale.mp4"
+                onclick="openModal('BURNOUT', 'Court métrage réalisé par les élèves de StudioM en 4 jours avec la participation de ActeursPros, monté par 2 monteurs dont moi même', '/video/STUDIO PROJECT_Burnout_groupe12.mp4')">
+                    <source src="/video/STUDIO PROJECT_Burnout_groupe12.mp4" type="video/mp4">
+                    Votre navigateur ne supporte malheureusement pas la lecture de video
+                    Veuillez changer de navigateur
+                </video>
+                
+            </div>
+        -->
+            <div class="project">
+                <img src="/img/burnout.png" >
+                  <div class="overlay-text" onclick="openModal('BURNOUT',
+                  'Court métrage réalisé par les élèves de StudioM en 4 jours avec la participation de ActeursPros, monté par 2 monteurs dont moi même',
+                   'https://www.youtube.com/embed/J3yo1d_-qLY')">
+                    <h3>Burnout</h3>
+                    <p>Court métrage réalisé par les élèves de mon école</p>
+                    <p>Cliquez pour voir le projet</p>
+                </div>
+            </div>
+<!--
+            <div class="project">
+                <video id="video" 
+                width="600" 
+                controls
+                data-title="MakingOf_BurnOut"
+                data-description="Making of burnout"
+                data-src="/video/MakingOf_BurnOut.mp4"
+                onclick="openModal('Making of',
+                 'Making of du court métrage Burnout, filmé avec un Iphone et monté par moi même', 
+                 '/video/MakingOf_BurnOut.mp4')">
+                    <source src="/video/MakingOf_BurnOut.mp4" type="video/mp4">
+                    Votre navigateur ne supporte malheureusement pas la lecture de video
+                    Veuillez changer de navigateur
+                </video>
+                
+            </div>
+        -->
+            <div class="project">
+                <img src="/img/makingof.png"  >
+
+                  <div class="overlay-text" onclick="openModal('Making of',
+                  'Making of du court métrage Burnout, filmé avec un Iphone et monté par moi même',
+                   'https://www.youtube.com/embed/Dyf7lyHgcBs')">
+                    <h3>Making Of | BURNOUT</h3>
+                    <p>Making of du court métrage BURNOUT, réalisé par les élèves de mon école</p>
+                    <p>Cliquez pour voir le projet</p>
+                </div>
+            </div>
+<!--
+            <div class="project">
+                <video id="video" 
+                width="600" 
+                controls
+                data-title="Les petites mains"
+                data-description="Bande annonce de court métrage"
+                data-src="/video/AOAVFinale.mp4"
+                onclick="openModal('Les petites mains', 'Montage de bande annonce de court métrage', '/video/V4Finale_LesPetitesMains.mp4')">
+                    <source src="/video/V4Finale_LesPetitesMains.mp4" type="video/mp4">
+                    Votre navigateur ne supporte malheureusement pas la lecture de video
+                    Veuillez changer de navigateur
+                </video>
+                
+            </div>
+        -->
+            <div class="project">
+                <img src="/img/lespetitesmains.png"  >
+
+                  <div class="overlay-text" onclick="openModal('Les petites mains',
+                  'Montage d\'une bande annonce pour un court métrage - Exercice d\'école',
+                   'https://www.youtube.com/embed/WHREKhl2OoM')">
+                    <h3>Les petites mains</h3>
+                    <p>Montage de d'une bande annonce pour un court métrage - Exercice d'école</p>
+                    <p>Cliquez pour voir le projet</p>
+                </div>
+            </div>
+<!--
+            <div class="project">
+                <video id="video" 
+                width="600" 
+                controls
+                data-title="Valley Boys - Hiawara"
+                data-description="Montage clip musical"
+                data-src="/video/AOAVFinale.mp4"
+                onclick="openModal('Valley Boys - Hiawara', 'Montage de clip musical', '/video/Valley_Boys_Nathan_Lamoste.mp4')">
+                    <source src="/video/Valley_Boys_Nathan_Lamoste.mp4" type="video/mp4">
+                    Votre navigateur ne supporte malheureusement pas la lecture de video
+                    Veuillez changer de navigateur
+                </video>
+                
+            </div>
+        --> 
+
+
+            <div class="project">
+                <img src="/img/quarte augmentée.png"  >
+
+                <div class="overlay-text" onclick="openModal('QUARTE AUGMENTEE',
+                    'Portrait d\'artiste - Exercice d\'école',
+                    'https://www.youtube.com/embed/EL4-oo600ho')">
+                    <h3>QUARTE AUGMENTEE</h3>
+                    <p>Montage d'un portrait d'artiste - Exercice d'école</p>
+                    <p>Cliquez pour voir le projet</p>
+                </div>
+            </div>
+
+
+            <div class="project">
+                <img src="/img/hiawara.png"  >
+
+                  <div class="overlay-text" onclick="openModal('Valley Boys - Hiawara',
+                  'Montage de clip musical - Exercice d\'école',
+                   'https://www.youtube.com/embed/JsWam93yBlU')">
+                    <h3>Valley Boys | Hiawara</h3>
+                    <p>Montage de clip musical - Exercice d'école</p>
+                    <p>Cliquez pour voir le projet</p>
+                </div>
+            </div>
+<!--
+            <div class="project">
+                <video id="video" 
+                width="600" 
+                controls
+                data-title="Angelus"
+                data-description="Montage de séquence"
+                data-src="/video/Nathan_lamoste.mp4"
+                onclick="openModal('Angelus', 'Montage de séquence de film', '/video/Nathan_lamoste.mp4')">
+                    <source src="/video/Nathan_lamoste.mp4" type="video/mp4">
+                    Votre navigateur ne supporte malheureusement pas la lecture de video
+                    Veuillez changer de navigateur
+                </video>
+               
+            </div>
+        -->
+            <div class="project">
+                <img src="/img/angelius.png"  >
+
+                  <div class="overlay-text" onclick="openModal('Angelus',
+                  'Montage d\'une séquence courte extraite d\'un film - Exercice d\'école',
+                   'https://www.youtube.com/embed/yBIWOGZDcxw')">
+                    <h3>Angelius</h3>
+                    <p>Montage d'une séquence courte extraite d'un film - Exercice d'école</p>
+                    <p>Cliquez pour voir le projet</p>
+                </div>
+            </div>
+<!--
+            <div class="project">
+                <video 
+                    id="video" 
+                    width="600" 
+                    controls
+                    data-title="AOA"
+                    data-description="Description de la video des avions"
+                    data-src="/video/AOAVFinale.mp4"
+                    onclick="openModal('AOA - AGE OF AVIATION', 'Projet de montage de bande annonce de documentaire', '/video/AOAVFinale.mp4')">
+                        <source src="/video/AOAVFinale.mp4" type="video/mp4">
+                        Votre navigateur ne supporte malheureusement pas la lecture de video
+                        Veuillez changer de navigateur
+                </video>
+
+            </div>
+        -->
+            <div class="project">
+                <img src="/img/aoa.png">
+
+                <div class="overlay-text" onclick="openModal('AOA - AGE OF AVIATION',
+                'Montage d\'une bande annonce d\'un reportage sur l\'aviation',
+                 'https://www.youtube.com/embed/TkF7oxnq1HY')">
+                    <h3>AGE OF AVIATION</h3>
+                    <p>Montage d'une bande annonce d'un reportage sur l'aviation</p>
+                    <p>Cliquez pour voir le projet</p>
+                </div>
+            </div>
+<!--
+            <div class="project">
+                <video 
+                id="video" 
+                width="600" 
+                controls
+                data-title="Glassblowers"
+                data-description="Description de la video souffleurs de verre"
+                data-src="/video/Glassblowers.mp4"
+                onclick="openModal('Glassblowers', 'Description', '/video/Glassblowers.mp4')">
+                    <source src="/video/Glassblowers.mp4" type="video/mp4">
+                    Votre navigateur ne supporte malheureusement pas la lecture de video
+                    Veuillez changer de navigateur
+                </video>
+            </div>
+        -->
+            <div class="project">
+                <img src="/img/glass.png"  >
+
+                  <div class="overlay-text" onclick="openModal('Glassblowers',
+                  'Montage d\'un reportage en anglais',
+                   'https://www.youtube.com/embed/KfSsHWjkVQE')">
+                    <h3>Glassblowers</h3>
+                    <p>Montage d'un reportage en anglais</p>
+                    <p>Cliquez pour voir le projet</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- La modale -->
+    <div id="modal" class="modal">
+        <div class="modal-box">
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <div id="modal-content"></div> <!-- L'iframe sera insérée ici -->
+            <button onclick="closeModal()">Fermer</button>
+        </div>  
+    </div>
+
+
+    <div class="bottom-link">
+        <a href="contact.html" class="nav-end">Me contacter</a>
+      </div>
+      
+    <footer>
+        <p>&copy; 2025 Nathan Lamoste. Tout droits réservés</p>
+    </footer>
+    </div> 
+</body>
+</html>
